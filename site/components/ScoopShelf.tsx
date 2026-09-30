@@ -42,7 +42,7 @@ export default function ScoopShelf() {
                 <p className="mt-2 hidden text-[15px] leading-snug opacity-85 md:block">{f.note}</p>
                 <div className="mt-auto flex items-center justify-between gap-2 pt-4 md:pt-6">
                   <span className="rounded-full bg-white px-3 py-2 text-[14px] font-extrabold text-[#2b1233] md:px-4 md:text-[16px]">
-                    <span className="tnum">₹{f.price}</span> <span className="hidden font-bold text-muted sm:inline">{shelf.unit}</span>
+                    <span className="tnum">£{f.price.toFixed(2)}</span> <span className="hidden font-bold text-muted sm:inline">{shelf.unit}</span>
                   </span>
                   <button aria-label={`Add ${f.name}`} className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-accent text-[22px] leading-none font-bold text-white shadow-[0_4px_0_var(--accent-deep)] transition-transform hover:translate-y-[2px] md:h-12 md:w-12">
                     +

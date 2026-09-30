@@ -144,18 +144,18 @@ export default function ScoopStacker() {
                     <span className="h-3 w-3 rounded-full" style={{ background: f.fill }} />
                     {f.name}
                   </span>
-                  <span className="tnum">₹{f.price}</span>
+                  <span className="tnum">£{f.price.toFixed(2)}</span>
                 </li>
               ))}
             </ul>
             <div className="dash mt-3 flex items-baseline justify-between pt-3 lg:mt-5 lg:pt-4">
               <span className="label">Total</span>
               <span key={total} className="font-display tnum text-[30px] text-accent lg:text-[40px]">
-                ₹{total}
+                £{total.toFixed(2)}
               </span>
             </div>
             <a href="#build" className={`btn mt-3 w-full justify-center lg:mt-5 ${done ? "btn-solid" : "btn-outline"}`}>
-              {done ? `Added to order ✓` : `${builder.cta} · ₹${total}`}
+              {done ? `Added to order ✓` : `${builder.cta} · £${total.toFixed(2)}`}
             </a>
           </div>
         </div>
