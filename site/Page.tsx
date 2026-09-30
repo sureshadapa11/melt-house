@@ -6,6 +6,9 @@ import ScoopShelf from "./components/ScoopShelf";
 import ScoopStacker from "./components/ScoopStacker";
 import SlowChurn from "./components/SlowChurn";
 import TreatBubbles from "./components/TreatBubbles";
+import CoffeeSection from "./components/CoffeeSection";
+import SundaeSection from "./components/SundaeSection";
+import ShakeSection from "./components/ShakeSection";
 import SweetDeals from "./components/SweetDeals";
 import LoveNotes from "./components/LoveNotes";
 import Parlours from "./components/Parlours";
@@ -36,6 +39,9 @@ export default function Page() {
         <ScoopShelf />
         <ScoopStacker />
         <SlowChurn />
+        <CoffeeSection />
+        <SundaeSection />
+        <ShakeSection />
         <TreatBubbles />
         <SweetDeals />
         <LoveNotes />

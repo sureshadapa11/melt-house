@@ -52,7 +52,16 @@ export default function TreatBubbles() {
         <ul ref={list} className="mt-12 grid grid-cols-3 gap-x-4 gap-y-8 md:mt-16 lg:grid-cols-6 lg:gap-6">
           {treats.items.map((t) => (
             <li key={t.name}>
-              <a href="#treats" className="group flex flex-col items-center text-center" data-cursor="Open">
+              <a
+                href={
+                  t.name === "Scoops" ? "#flavours" :
+                  t.name === "Sundaes" ? "#sundaes" :
+                  t.name === "Coffee" ? "#coffee" :
+                  t.name === "Thick shakes" ? "#shakes" : "#treats"
+                }
+                className="group flex flex-col items-center text-center"
+                data-cursor="Open"
+              >
                 <span className="bubble relative block aspect-square w-full max-w-[200px] rounded-full p-1.5 ring-[3px] ring-transparent transition-[box-shadow,--tw-ring-color] duration-500 group-hover:ring-accent">
                   <span className="absolute inset-1.5 overflow-hidden rounded-full transition-transform duration-500 group-hover:scale-[0.96]">
                     <Photo photo={t.photo} tone={t.tone} alt={t.name} eager className="absolute inset-0" />

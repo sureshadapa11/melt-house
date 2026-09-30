@@ -120,12 +120,12 @@ export const coffees = {
   text: "Hand-pulled espresso shots, specialty lattes, and signature hot drinks.",
   unit: "/ cup",
   items: [
-    { id: "espresso", name: "Double Espresso", note: "Rich, bold, perfectly pulled", price: 3.50, tag: "Classic", fill: FLAVOUR.coffee, ink: "#2b1233", image: "/images/melt/coffee-espresso.webp" },
-    { id: "latte", name: "Hazelnut Latte", note: "Silky milk with hazelnut and espresso", price: 4.50, tag: "Bestseller", fill: FLAVOUR.meetha, ink: "#2b1233", image: "/images/melt/coffee-latte.webp" },
-    { id: "cappuccino", name: "Cappuccino", note: "Creamy foam and rich espresso blend", price: 4.20, tag: "Popular", fill: FLAVOUR.coffee, ink: "#2b1233", image: "/images/melt/coffee-cappuccino.webp" },
-    { id: "mocha", name: "Chocolate Mocha", note: "Espresso, steamed milk, chocolate", price: 4.80, tag: "Decadent", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/coffee-mocha.webp" },
-    { id: "cortado", name: "Cortado", note: "Equal parts espresso and steamed milk", price: 3.80, tag: "Smooth", fill: FLAVOUR.mango, ink: "#2b1233", image: "/images/melt/coffee-cortado.webp" },
-    { id: "macchiato", name: "Macchiato", note: "Espresso marked with milk foam", price: 4.10, tag: "Light", fill: FLAVOUR.pistachio, ink: "#2b1233", image: "/images/melt/coffee-macchiato.webp" },
+    { id: "espresso", name: "Double Espresso", note: "Rich, bold, perfectly pulled", price: 3.50, tag: "Classic", fill: FLAVOUR.coffee, ink: "#2b1233", image: "/images/melt/scoop-coffee.webp" },
+    { id: "latte", name: "Hazelnut Latte", note: "Silky milk with hazelnut and espresso", price: 4.50, tag: "Bestseller", fill: FLAVOUR.meetha, ink: "#2b1233", image: "/images/melt/scoop-coffee.webp" },
+    { id: "cappuccino", name: "Cappuccino", note: "Creamy foam and rich espresso blend", price: 4.20, tag: "Popular", fill: FLAVOUR.coffee, ink: "#2b1233", image: "/images/melt/scoop-coffee.webp" },
+    { id: "mocha", name: "Chocolate Mocha", note: "Espresso, steamed milk, chocolate", price: 4.80, tag: "Decadent", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/scoop-coffee.webp" },
+    { id: "cortado", name: "Cortado", note: "Equal parts espresso and steamed milk", price: 3.80, tag: "Smooth", fill: FLAVOUR.mango, ink: "#2b1233", image: "/images/melt/scoop-coffee.webp" },
+    { id: "macchiato", name: "Macchiato", note: "Espresso marked with milk foam", price: 4.10, tag: "Light", fill: FLAVOUR.pistachio, ink: "#2b1233", image: "/images/melt/scoop-coffee.webp" },
   ],
 };
 
@@ -135,12 +135,12 @@ export const sundaes = {
   text: "Hand-scooped gelato on warm desserts with hot toppings and syrups.",
   unit: "/ sundae",
   items: [
-    { id: "brownie", name: "Warm Brownie Sundae", note: "Hot brownie, vanilla gelato, fudge sauce", price: 8.50, tag: "Classic", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/sundae-brownie.webp" },
-    { id: "waffle", name: "Belgian Waffle", note: "Crispy waffle, three scoops, caramel drizzle", price: 9.50, tag: "Indulgent", fill: FLAVOUR.mango, ink: "#2b1233", image: "/images/melt/sundae-waffle.webp" },
-    { id: "pancake", name: "Warm Pancakes", note: "Fluffy stack with gelato and berry compote", price: 8.00, tag: "Popular", fill: FLAVOUR.strawberry, ink: "#2b1233", image: "/images/melt/sundae-pancake.webp" },
-    { id: "chocolate", name: "Chocolate Lava", note: "Molten chocolate cake, vanilla ice cream", price: 9.00, tag: "Rich", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/sundae-lava.webp" },
-    { id: "pistachio", name: "Pistachio Dream", note: "Pistachio gelato, hazelnut praline, whipped cream", price: 8.80, tag: "Premium", fill: FLAVOUR.pistachio, ink: "#2b1233", image: "/images/melt/sundae-pistachio.webp" },
-    { id: "strawberry", name: "Strawberry Romance", note: "Fresh strawberries, vanilla gelato, raspberry sauce", price: 8.20, tag: "Fresh", fill: FLAVOUR.strawberry, ink: "#2b1233", image: "/images/melt/sundae-strawberry.webp" },
+    { id: "brownie", name: "Warm Brownie Sundae", note: "Hot brownie, vanilla gelato, fudge sauce", price: 8.50, tag: "Classic", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/cat-sundae.webp" },
+    { id: "waffle", name: "Belgian Waffle", note: "Crispy waffle, three scoops, caramel drizzle", price: 9.50, tag: "Indulgent", fill: FLAVOUR.mango, ink: "#2b1233", image: "/images/melt/cat-sundae.webp" },
+    { id: "pancake", name: "Warm Pancakes", note: "Fluffy stack with gelato and berry compote", price: 8.00, tag: "Popular", fill: FLAVOUR.strawberry, ink: "#2b1233", image: "/images/melt/cat-sundae.webp" },
+    { id: "chocolate", name: "Chocolate Lava", note: "Molten chocolate cake, vanilla ice cream", price: 9.00, tag: "Rich", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/cat-sundae.webp" },
+    { id: "pistachio", name: "Pistachio Dream", note: "Pistachio gelato, hazelnut praline, whipped cream", price: 8.80, tag: "Premium", fill: FLAVOUR.pistachio, ink: "#2b1233", image: "/images/melt/cat-sundae.webp" },
+    { id: "strawberry", name: "Strawberry Romance", note: "Fresh strawberries, vanilla gelato, raspberry sauce", price: 8.20, tag: "Fresh", fill: FLAVOUR.strawberry, ink: "#2b1233", image: "/images/melt/cat-sundae.webp" },
   ],
 };
 
@@ -150,12 +150,12 @@ export const shakes = {
   text: "Blended gelato shakes thick enough to eat with a spoon.",
   unit: "/ shake",
   items: [
-    { id: "vanilla", name: "Vanilla Bean Shake", note: "Classic vanilla gelato blend", price: 5.50, tag: "Classic", fill: FLAVOUR.meetha, ink: "#2b1233", image: "/images/melt/shake-vanilla.webp" },
-    { id: "strawberry", name: "Strawberry Shake", note: "Fresh berries and cream gelato", price: 5.80, tag: "Fresh", fill: FLAVOUR.strawberry, ink: "#2b1233", image: "/images/melt/shake-strawberry.webp" },
-    { id: "chocolate", name: "Chocolate Malt Shake", note: "Dark chocolate and malt, extra thick", price: 6.00, tag: "Indulgent", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/shake-chocolate.webp" },
-    { id: "caramel", name: "Salted Caramel Shake", note: "Creamy caramel with sea salt", price: 5.80, tag: "Bestseller", fill: FLAVOUR.pistachio, ink: "#2b1233", image: "/images/melt/shake-caramel.webp" },
-    { id: "hazelnut", name: "Hazelnut Coffee Shake", note: "Espresso and hazelnut gelato", price: 6.20, tag: "Mocha lover", fill: FLAVOUR.coffee, ink: "#2b1233", image: "/images/melt/shake-hazelnut.webp" },
-    { id: "blueberry", name: "Blueberry Cheesecake", note: "Blueberry and cheesecake gelato", price: 6.00, tag: "Premium", fill: FLAVOUR.blueberry, ink: "#ffffff", image: "/images/melt/shake-blueberry.webp" },
+    { id: "vanilla", name: "Vanilla Bean Shake", note: "Classic vanilla gelato blend", price: 5.50, tag: "Classic", fill: FLAVOUR.meetha, ink: "#2b1233", image: "/images/melt/cat-shake.webp" },
+    { id: "strawberry", name: "Strawberry Shake", note: "Fresh berries and cream gelato", price: 5.80, tag: "Fresh", fill: FLAVOUR.strawberry, ink: "#2b1233", image: "/images/melt/cat-shake.webp" },
+    { id: "chocolate", name: "Chocolate Malt Shake", note: "Dark chocolate and malt, extra thick", price: 6.00, tag: "Indulgent", fill: FLAVOUR.cocoa, ink: "#fff1e6", image: "/images/melt/cat-shake.webp" },
+    { id: "caramel", name: "Salted Caramel Shake", note: "Creamy caramel with sea salt", price: 5.80, tag: "Bestseller", fill: FLAVOUR.pistachio, ink: "#2b1233", image: "/images/melt/cat-shake.webp" },
+    { id: "hazelnut", name: "Hazelnut Coffee Shake", note: "Espresso and hazelnut gelato", price: 6.20, tag: "Mocha lover", fill: FLAVOUR.coffee, ink: "#2b1233", image: "/images/melt/cat-shake.webp" },
+    { id: "blueberry", name: "Blueberry Cheesecake", note: "Blueberry and cheesecake gelato", price: 6.00, tag: "Premium", fill: FLAVOUR.blueberry, ink: "#ffffff", image: "/images/melt/cat-shake.webp" },
   ],
 };
 
@@ -165,7 +165,7 @@ export const treats = {
   items: [
     { name: "Scoops", count: "6 flavours", tone: FLAVOUR.strawberry, hint: "Scoops in a cup", photo: "/images/melt/cat-scoops.webp" },
     { name: "Sundaes", count: "6 sundaes", tone: FLAVOUR.mango, hint: "Sundae glass", photo: "/images/melt/cat-sundae.webp" },
-    { name: "Coffee", count: "6 hot drinks", tone: FLAVOUR.coffee, hint: "Coffee cup", photo: "/images/melt/cat-coffee.webp" },
+    { name: "Coffee", count: "6 hot drinks", tone: FLAVOUR.coffee, hint: "Coffee cup", photo: "/images/melt/scoop-coffee.webp" },
     { name: "Thick shakes", count: "6 shakes", tone: FLAVOUR.meetha, hint: "Milkshake", photo: "/images/melt/cat-shake.webp" },
     { name: "Family tubs", count: "500 ml · 1 L", tone: FLAVOUR.pistachio, hint: "Tub, top-down", photo: "/images/melt/cat-tub.webp" },
     { name: "Ice-cream cakes", count: "Order 24 h ahead", tone: FLAVOUR.blueberry, hint: "Ice-cream cake", photo: "/images/melt/cat-cake.webp" },
